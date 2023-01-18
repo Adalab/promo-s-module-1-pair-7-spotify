@@ -1,4 +1,4 @@
-header{
+nav{
     box-sizing: border-box;
     background-color: black;
     width: 100%;
@@ -8,4 +8,40 @@ header{
     padding-right: 20px;
     display: flex;
     justify-content: space-between;
+}
+
+.azul{
+    border: 3px solid red;
+    background-color: blue;
+    color: white;
+    font-family: Roboto;
+    padding-top:150px;
+    box-sizing: border-box;
+    padding-left:10px;
+    padding-right: 10px;
+    /*display:flex;*/
+    /*OJO VARIABLES PARA VALORES REPETIDOS*/
+}
+
+
+h1{
+    font-size: 42px;
+    font-weight:bolder;
+
+}
+
+#cabeza{
+    font-size: 24px;
+    padding-top: 20px;
+}
+
+#planes{
+    padding-top: 20px;
+    padding-bottom: 20px;
+    margin-top: 50px;
+    margin-bottom:50px;
+    text-align: center;
+    background-color: green;
+    border-radius:20px;
+
 }
