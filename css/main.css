@@ -64,3 +64,30 @@ h1{
     padding: 20px;
     flex-wrap: wrap;
 }
+
+.link_footer{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    width: 50%;
+}
+
+.link_footer p{
+    padding: 5px;
+}
+
+/*.spain{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-left: 20px;
+}*/
+
+#flag{
+    padding-left: 10px;
+    padding-right: 5px;
+}
+
+/*NO CONSIGO VER EL FALLO DEL PIE*/
