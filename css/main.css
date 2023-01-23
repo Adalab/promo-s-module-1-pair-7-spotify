@@ -38,6 +38,13 @@ h1{
 
 }
 
+h2{
+    font-family: Roboto;
+    font-weight: bold;
+    font-size: 30px;
+    padding-bottom: 20px;
+}
+
 #cabeza{
     font-size: 24px;
     padding-top: 20px;
@@ -52,6 +59,10 @@ h1{
     background-color: green;
     border-radius:30px;
 
+}
+
+#terminos{
+    padding-bottom: 20px;
 }
 
 .footer {
@@ -91,3 +102,33 @@ h1{
 }
 
 /*NO CONSIGO VER EL FALLO DEL PIE*/
+
+.blanco{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.item img{
+    width: 20%;
+    height: 20%;
+}
+
+.dancer{
+    display: none;
+}
+
+.item1, .item2, .item3, .item4{
+    display: flex;
+  
+    align-items: center;
+    padding:20px;
+    margin:auto;
+}
+
+.item p{
+    padding-left: 10px;
+}
