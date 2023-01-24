@@ -35,7 +35,6 @@ nav{
 h1{
     font-size: 42px;
     font-weight:bolder;
-
 }
 
 h2{
@@ -81,7 +80,7 @@ h2{
     flex-direction: row;
     flex-wrap: wrap;
     justify-content: flex-start;
-    width: 50%;
+    width: 70%;
 }
 
 .link_footer p{
@@ -99,6 +98,9 @@ h2{
 #flag{
     padding-left: 10px;
     padding-right: 5px;
+    width: 25%;
+    padding-bottom: 5px;
+    
 }
 
 /*NO CONSIGO VER EL FALLO DEL PIE*/
@@ -123,12 +125,20 @@ h2{
 
 .item1, .item2, .item3, .item4{
     display: flex;
-  
     align-items: center;
     padding:20px;
-    margin:auto;
 }
 
 .item p{
     padding-left: 10px;
+}
+
+.bandera{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+}
+
+.uno{
+    font-weight: bold;
 }
