@@ -1,0 +1,99 @@
+nav {
+  box-sizing: border-box;
+  width: 100%;
+  height: 50px;
+  padding: 10px;
+  padding-left: 20px;
+  padding-right: 20px;
+  display: flex;
+  justify-content: space-between;
+  position: sticky;
+  top: 0;
+  z-index: 1;
+  background-color: black;
+
+}
+
+.azul {
+  border: 3px solid red;
+  background-color: blue;
+  color: white;
+  font-family: Roboto;
+  padding-top: 150px;
+  box-sizing: border-box;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+h1 {
+  font-size: 42px;
+  font-weight: bolder;
+}
+
+#cabeza {
+  font-size: 24px;
+  padding-top: 20px;
+}
+
+#planes {
+  padding-top: 20px;
+  padding-bottom: 20px;
+  margin-top: 50px;
+  margin-bottom: 50px;
+  text-align: center;
+  background-color: green;
+  border-radius: 30px;
+
+}
+
+#terminos {
+  padding-bottom: 20px;
+}
+
+.dancer {
+  display: none;
+}
+
+.navigation{
+  display: none;
+}
+
+@media all and (min-width:480px){
+
+    .burguer{
+      display: none;
+    }
+
+    .navigation{
+      color: white;
+      font-weight: bold;
+      display: flex;
+      list-style: none;
+      flex-direction: row;
+      justify-content: flex-end;
+      align-content: space-between;
+    }
+
+    li{
+      padding-left: 10px;
+    }
+
+    .azul{
+      display: flex;
+      flex-direction: column;
+      background-image: url("../images/premium_dancer.png");
+      background-repeat: no-repeat;
+      background-size: contain;
+      background-position: right;
+    }
+
+    h1{
+      font-size: 60px;
+      width: 80%;
+    }
+
+    #planes{
+      width: 20%;
+      font-weight: bold;
+    }
+}
